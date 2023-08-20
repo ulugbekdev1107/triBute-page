@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;500;600;700&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+    font-size: 18px;
+    background-color: bisque;
+
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 120px;
+    padding-right: 120px;
+
+}
+.header{
+    width: 100%;
+    height:600px;
+    background-image: url('../img/elin-musk-3.jpeg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header-hero-heading{
+    position: absolute;
+    color:rgb(255, 255, 255);
+    right: 120px;
+    bottom: 40px;
+    font-size: 55px;
+}
+
+.lead{
+    color:white;
+    font-size: 20px;
+    position: absolute;
+    right: 120px;
+    bottom: 20px;
+}
+.link-btn{
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+    display: inline-block;
+    padding: 10px 15px;
+    border:2px solid aquamarine;
+    text-decoration:none;
+    color:white;
+    font-size:22px;
+    font-weight:200;
+
+}
+.link-btn-bg{
+    position: absolute;
+    bottom: 40px;
+    left: 250px;
+    padding: 10px 15px;
+    border:2px solid aquamarine;
+    text-decoration:none;
+    color:white;
+    font-size:22px;
+    font-weight:200;
+
+}
+.main-heading{
+    font-size: 34px;
+    line-height: 232%;
+
+}
+.h_line{
+    margin: 20px 0px;
+    height: 2px;
+}
+.main-paragriph{
+    word-wrap: 33px;
+    line-height: 30px;
+}
